@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:get/get.dart';
@@ -13,7 +12,6 @@ class HomeScreen extends GetView<MyDrawerController> {
   const HomeScreen({Key? key}) : super(key: key);
 
   static const String routeName = '/home';
-  
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +26,7 @@ class HomeScreen extends GetView<MyDrawerController> {
         style: DrawerStyle.DefaultStyle,
         menuScreen: const CustomDrawer(),
         backgroundColor: Colors.white.withOpacity(0.5),
-        slideWidth: MediaQuery.of(context).size.width * 0.6,
+        slideWidth: MediaQuery.of(context).size.width * 0.4,
         mainScreen: Container(
           decoration: BoxDecoration(gradient: mainGradient(context)),
           child: SafeArea(
@@ -49,7 +47,7 @@ class HomeScreen extends GetView<MyDrawerController> {
                       ),
                       const SizedBox(height: 10),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 8),
                         child: Row(
                           children: [
                             const Icon(AppIcons.peace),
@@ -71,7 +69,6 @@ class HomeScreen extends GetView<MyDrawerController> {
                       ),
                       const Text('What Do You Want To Improve Today ?',
                           style: kHeaderTS),
-                      const SizedBox(height: 15),
                     ],
                   ),
                 ),

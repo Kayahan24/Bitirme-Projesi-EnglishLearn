@@ -16,7 +16,8 @@ class CustomDrawer extends GetView<MyDrawerController> {
       child: Theme(
         data: ThemeData(
             textButtonTheme: TextButtonThemeData(
-                style: TextButton.styleFrom(primary: kOnSurfaceTextColor))),
+                style: TextButton.styleFrom(
+                    foregroundColor: kOnSurfaceTextColor))),
         child: SafeArea(
             child: Stack(
           children: [
@@ -43,7 +44,7 @@ class CustomDrawer extends GetView<MyDrawerController> {
                                   vertical: 10, horizontal: 15),
                               elevation: 0,
                               backgroundColor: Colors.white.withOpacity(0.5),
-                              primary: Colors.white),
+                              foregroundColor: Colors.white),
                           onPressed: () {
                             controller.signIn();
                           },
@@ -102,7 +103,7 @@ class CustomDrawer extends GetView<MyDrawerController> {
                         _DrawerButton(
                             icon: AppIcons.email,
                             label: 'Email',
-                            onPressed:  () => controller.email()),
+                            onPressed: () => controller.email()),
                         // _DrawerButton(
                         //     icon: AppIcons.github,
                         //     label: 'GitHub',
