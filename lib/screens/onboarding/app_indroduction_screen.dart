@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quizzle/configs/themes/app_colors.dart';
 import 'package:quizzle/screens/home/home_screen.dart';
+import 'package:quizzle/screens/home/main_screen.dart';
 import 'package:quizzle/widgets/common/circle_button.dart';
 
 class AppIntroductionScreen extends StatelessWidget {
@@ -31,13 +32,12 @@ class AppIntroductionScreen extends StatelessWidget {
                 'This is not a production app. This quiz app is made for beginner flutter developers to understand the firebase integrations, state management, and the app flow. There are free available all source codes, design files also.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 18,
-                  color: kOnSurfaceTextColor,
-                  fontWeight: FontWeight.bold
-                ),
+                    fontSize: 18,
+                    color: kOnSurfaceTextColor,
+                    fontWeight: FontWeight.bold),
               ),
               CircularButton(
-                  onTap: () => Get.offAndToNamed(HomeScreen.routeName),
+                  onTap: () => Get.offAndToNamed(MainScreen.routeName),
                   child: const Icon(
                     Icons.arrow_forward,
                     size: 35,

@@ -34,41 +34,23 @@ class HomeScreen extends GetView<MyDrawerController> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.all(kMobileScreenPadding),
-                  child: Column(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Transform.translate(
-                        offset: const Offset(-10, 0),
-                        child: CircularButton(
-                          child: const Icon(AppIcons.menuleft),
-                          onTap: controller.toggleDrawer,
+                        offset: const Offset(0, -10),
+                        child: IconButton(
+                          icon: Icon(Icons.arrow_back),
+                          iconSize: 30, // Increased icon size to 30
+                          onPressed: () {
+                            Get.offNamed(
+                                '/main'); // Navigates to the route with routeName '/main'
+                          },
                         ),
                       ),
-                      const SizedBox(height: 10),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 8),
-                        child: Row(
-                          children: [
-                            const Icon(AppIcons.peace),
-                            Builder(
-                              builder: (_) {
-                                final AuthController _auth = Get.find();
-                                final user = _auth.getUser();
-                                String _label = '  Hello mate';
-                                if (user != null) {
-                                  _label = '  Hello ${user.displayName}';
-                                }
-                                return Text(_label,
-                                    style: kDetailsTS.copyWith(
-                                        color: kOnSurfaceTextColor));
-                              },
-                            ),
-                          ],
-                        ),
-                      ),
-                      const Text('What Do You Want To Improve Today ?',
-                          style: kHeaderTS),
+                      const Text('Take Your Quiz', style: kHeaderTS),
+                      // Added spacer to align the back button to the right
                     ],
                   ),
                 ),

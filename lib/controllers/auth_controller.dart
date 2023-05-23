@@ -2,7 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:quizzle/firebase/references.dart';
-import 'package:quizzle/screens/screens.dart' show AppIntroductionScreen, HomeScreen, LoginScreen;
+import 'package:quizzle/screens/screens.dart'
+    show AppIntroductionScreen, MainScreen, LoginScreen;
 import 'package:quizzle/utils/utils.dart';
 import 'package:quizzle/widgets/widgets.dart';
 
@@ -57,9 +58,11 @@ class AuthController extends GetxController {
   }
 
   Future<void> saveUser(GoogleSignInAccount account) async {
-    userFR
-        .doc(account.email)
-        .set({"email" : account.email, "name": account.displayName, "profilepic": account.photoUrl});
+    userFR.doc(account.email).set({
+      "email": account.email,
+      "name": account.displayName,
+      "profilepic": account.photoUrl
+    });
   }
 
   User? getUser() {
@@ -72,7 +75,7 @@ class AuthController extends GetxController {
   }
 
   void navigateToHome() {
-    Get.offAllNamed(HomeScreen.routeName);
+    Get.offAllNamed(MainScreen.routeName);
   }
 
   void navigateToLogin() {
@@ -85,7 +88,7 @@ class AuthController extends GetxController {
 
   void showLoginAlertDialog() {
     Get.dialog(
-      Dialogs.quizStartDialog(onTap: (){
+      Dialogs.quizStartDialog(onTap: () {
         Get.back();
         navigateToLogin();
       }),

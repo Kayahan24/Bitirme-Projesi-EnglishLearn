@@ -13,6 +13,17 @@ class AppRoutes {
           name: AppIntroductionScreen.routeName,
         ),
         GetPage(
+            page: () => const MainScreen(),
+            name: MainScreen.routeName,
+            binding: BindingsBuilder(() {
+              Get.put(QuizPaperController());
+              Get.put(MyDrawerController());
+            })),
+        GetPage(
+          page: () => const DictionaryScreen(),
+          name: DictionaryScreen.routeName,
+        ),
+        GetPage(
             page: () => const HomeScreen(),
             name: HomeScreen.routeName,
             binding: BindingsBuilder(() {
@@ -34,10 +45,10 @@ class AppRoutes {
               Get.put(LeaderBoardController());
             })),
         GetPage(
-            page: () => QuizeScreen(),
+            page: () => const QuizeScreen(),
             name: QuizeScreen.routeName,
             binding: BindingsBuilder(() {
-              Get.put<QuizController>( QuizController());
+              Get.put<QuizController>(QuizController());
             })),
         GetPage(
             page: () => const AnswersCheckScreen(),

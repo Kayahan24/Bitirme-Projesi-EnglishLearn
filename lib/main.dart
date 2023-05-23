@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:quizzle/screens/data_uploader_screen.dart';
 import 'bindings/initial_binding.dart';
 import 'controllers/common/theme_controller.dart';
 import 'firebase_options.dart';
