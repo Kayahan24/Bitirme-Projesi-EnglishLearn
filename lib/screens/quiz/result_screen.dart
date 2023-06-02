@@ -28,7 +28,9 @@ class Resultcreen extends GetView<QuizController> {
           child: Column(
             children: [
               CustomAppBar(
-                leading: const SizedBox(height: kToolbarHeight,),
+                leading: const SizedBox(
+                  height: kToolbarHeight,
+                ),
                 title: controller.correctAnsweredQuestions,
               ),
               Expanded(
@@ -36,7 +38,11 @@ class Resultcreen extends GetView<QuizController> {
                     child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    SvgPicture.asset('assets/images/bulb.svg'),
+                    SizedBox(
+                      height: 100,
+                      width: 100,
+                      child: SvgPicture.asset('assets/images/bulb.svg'),
+                    ),
                     Padding(
                       padding: const EdgeInsets.only(top: 20, bottom: 5),
                       child: Text(
@@ -107,13 +113,15 @@ class Resultcreen extends GetView<QuizController> {
                       children: [
                         Expanded(
                             child: MainButton(
-                              color: Colors.blueGrey,
+                          color: Colors.blueGrey,
                           onTap: () {
-                           controller.tryAgain();
+                            controller.tryAgain();
                           },
                           title: 'Try Again',
                         )),
-                        const SizedBox(width: 5,),
+                        const SizedBox(
+                          width: 5,
+                        ),
                         Expanded(
                             child: MainButton(
                           onTap: () {
