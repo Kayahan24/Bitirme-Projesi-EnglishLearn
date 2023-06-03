@@ -28,7 +28,7 @@ class MyDrawerController extends GetxController {
   void email() {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
-      path: 'kayahansan24@gmail.com',
+      path: 'finansalsau54@gmail.com',
     );
     _launch(emailLaunchUri.toString());
   }
