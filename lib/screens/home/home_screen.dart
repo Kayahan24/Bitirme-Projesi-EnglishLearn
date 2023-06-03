@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:get/get.dart';
@@ -16,6 +18,8 @@ class HomeScreen extends GetView<MyDrawerController> {
   @override
   Widget build(BuildContext context) {
     QuizPaperController _quizePprContoller = Get.find();
+    String id = _quizePprContoller.getParams();
+
     return Scaffold(
         body: GetBuilder<MyDrawerController>(
       builder: (_) => ZoomDrawer(
@@ -64,8 +68,7 @@ class HomeScreen extends GetView<MyDrawerController> {
                           height: 150,
                           springAnimationDurationInMilliseconds: 500,
                           //backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
-                          color:
-                              Theme.of(context).primaryColor.withOpacity(0.5),
+                          color: Colors.amber,
                           onRefresh: () async {
                             _quizePprContoller.getAllPapers();
                           },
@@ -74,9 +77,21 @@ class HomeScreen extends GetView<MyDrawerController> {
                             shrinkWrap: true,
                             itemCount: _quizePprContoller.allPapers.length,
                             itemBuilder: (BuildContext context, int index) {
-                              return QuizPaperCard(
-                                model: _quizePprContoller.allPapers[index],
-                              );
+                                  return QuizPaperCard(
+                                    model: _quizePprContoller.allPapers[index],
+                                  );
+                                }
+                              } else if (id == '2') {
+                                if (_quizePprContoller.allPapers[index].id
+                                        .startsWith('v') ||
+                                    _quizePprContoller.allPapers[index].id
+                                        .startsWith('V')) {
+                                  return QuizPaperCard(
+                                    model: _quizePprContoller.allPapers[index],
+                                  );
+                                }
+                              }
+                              return SizedBox.shrink();
                             },
                             separatorBuilder:
                                 (BuildContext context, int index) {
