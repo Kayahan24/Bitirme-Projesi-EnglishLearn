@@ -16,6 +16,34 @@ class MainScreen extends GetView<MyDrawerController> {
   @override
   Widget build(BuildContext context) {
     QuizPaperController _quizePprContoller = Get.find();
+
+    List<Map<String, dynamic>> mainCardList = [
+      {
+        'id': '1',
+        'title': 'Grammar Tests',
+        'description':
+            'You can improve your grammar knowledge here just solve tests',
+        'RouteName': '/home',
+        'imageUrl': 'assets/images/grammar.png',
+      },
+      {
+        'id': '2',
+        'title': 'Vocabulary Tests',
+        'description':
+            'You can improve your vocabulary knowledge here just solve tests',
+        'RouteName': '/home',
+        'imageUrl': 'assets/images/vocabulary.png',
+      },
+      {
+        'id': '3',
+        'title': 'Dictionary',
+        'description':
+            'You can search any vocabulary as you wish just type the word',
+        'RouteName': '/dictionary',
+        'imageUrl': 'assets/images/dictionary.png',
+      }
+    ];
+
     return Scaffold(
       body: GetBuilder<MyDrawerController>(
         builder: (_) => ZoomDrawer(
@@ -71,67 +99,40 @@ class MainScreen extends GetView<MyDrawerController> {
                           ),
                         ),
                         const Text(
-                          'Welcome to Main Screen',
+                          'Welcome to QuizWhiz',
                           style: kHeaderTS,
-                        ),
-                        const SizedBox(height: 50),
-                        Card(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8.0),
-                            side: BorderSide(color: Colors.purple, width: 2.0),
-                          ),
-                          color: Colors.white,
-                          child: InkWell(
-                            onTap: () {
-                              // Burada tıklanınca yönlendirilmek istenen sayfayı açabilirsiniz
-                              Get.toNamed('/home');
-                            },
-                            child: ListTile(
-                              leading: const Icon(Icons.card_giftcard),
-                              title: const Text('Card 1'),
-                              subtitle: const Text('Description for Card 1'),
-                            ),
-                          ),
-                        ),
-                        Card(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8.0),
-                            side: BorderSide(color: Colors.purple, width: 2.0),
-                          ),
-                          color: Colors.white,
-                          child: InkWell(
-                            onTap: () {
-                              // Burada tıklanınca yönlendirilmek istenen sayfayı açabilirsiniz
-                              Get.toNamed('/home');
-                            },
-                            child: ListTile(
-                              leading: const Icon(Icons.card_giftcard),
-                              title: const Text('Card 2'),
-                              subtitle: const Text('Description for Card 2'),
-                            ),
-                          ),
-                        ),
-                        Card(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8.0),
-                            side: BorderSide(color: Colors.purple, width: 2.0),
-                          ),
-                          color: Colors.white,
-                          child: InkWell(
-                            onTap: () {
-                              // Burada tıklanınca yönlendirilmek istenen sayfayı açabilirsiniz
-                              Get.toNamed('/dictionary');
-                            },
-                            child: ListTile(
-                              leading: const Icon(Icons.card_giftcard),
-                              title: const Text('Card 3'),
-                              subtitle: const Text('Description for Card 3'),
-                            ),
-                          ),
                         ),
                       ],
                     ),
                   ),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      child: ContentArea(
+                        addPadding: false,
+                        child: ListView.separated(
+                          padding: UIParameters.screenPadding,
+                          shrinkWrap: true,
+                          itemCount: mainCardList.length,
+                          itemBuilder: (BuildContext context, int index) {
+                            final cardData = mainCardList[index];
+                            return MainCard(
+                              id: cardData['id'],
+                              title: cardData['title'],
+                              description: cardData['description'],
+                              RouteName: cardData['RouteName'],
+                              imageUrl: cardData['imageUrl'],
+                            );
+                          },
+                          separatorBuilder: (BuildContext context, int index) {
+                            return const SizedBox(
+                              height: 20,
+                            );
+                          },
+                        ),
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),

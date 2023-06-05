@@ -22,19 +22,23 @@ class MyDrawerController extends GetxController {
   }
 
   void github() {
-    _launch('https://github.com/CodeFoxLk');
+    _launch('https://github.com/Kayahan24/Bitirme-Projesi-EnglishLearn');
   }
 
   void email() {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
-      path: 'codefoxlk@gmail.com',
+      path: 'finansalsau54@gmail.com',
     );
     _launch(emailLaunchUri.toString());
   }
 
-  void downloadSourceCode() {
-    _launch('https://github.com/CodeFoxLk/quizzle_public.git');
+  Future? goToProfile() {
+    AuthController _authController = Get.find();
+    if (_authController.isLogedIn()) {
+      return Get.toNamed('/profile');
+    }
+    return null;
   }
 
   @override

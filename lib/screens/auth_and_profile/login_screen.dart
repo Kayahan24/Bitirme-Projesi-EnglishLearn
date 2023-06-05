@@ -27,7 +27,7 @@ class LoginScreen extends GetView<AuthController> {
               const Padding(
                 padding: EdgeInsets.symmetric(vertical: 60),
                 child: Text(
-                  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                  'Please enter your login credentials below to acces our application and start using all of its features.',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: kOnSurfaceTextColor, fontWeight: FontWeight.bold),
@@ -36,7 +36,7 @@ class LoginScreen extends GetView<AuthController> {
               MainButton(
                 onTap: () {
                   controller.siginInWithGoogle();
-                 },
+                },
                 color: Colors.white,
                 child: Stack(
                   children: [
