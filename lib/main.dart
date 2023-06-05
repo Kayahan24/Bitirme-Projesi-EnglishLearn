@@ -43,7 +43,6 @@ Future<void> initFireBase() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 }
-//kayahan
 
 // void main(List<String> args) async {
 //   WidgetsFlutterBinding.ensureInitialized();
