@@ -17,6 +17,15 @@ class QuizPaperController extends GetxController {
   final allPapers = <QuizPaperModel>[].obs;
   final allPaperImages = <String>[].obs;
 
+  var params = '';
+  String getParams() {
+    return params;
+  }
+
+  void setParams(String param) {
+    params = param;
+  }
+
   Future<void> getAllPapers() async {
     try {
       QuerySnapshot<Map<String, dynamic>> data = await quizePaperFR.get();
@@ -35,13 +44,15 @@ class QuizPaperController extends GetxController {
     }
   }
 
-  void navigatoQuestions({required QuizPaperModel paper, bool isTryAgain = false}) {
+  void navigatoQuestions(
+      {required QuizPaperModel paper, bool isTryAgain = false}) {
     AuthController _authController = Get.find();
 
     if (_authController.isLogedIn()) {
       if (isTryAgain) {
         Get.back();
-        Get.offNamed(QuizeScreen.routeName, arguments: paper, preventDuplicates: false);
+        Get.offNamed(QuizeScreen.routeName,
+            arguments: paper, preventDuplicates: false);
       } else {
         Get.toNamed(QuizeScreen.routeName, arguments: paper);
       }
