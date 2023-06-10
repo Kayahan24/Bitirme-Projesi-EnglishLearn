@@ -117,7 +117,7 @@ class Resultcreen extends GetView<QuizController> {
                           onTap: () {
                             controller.tryAgain();
                           },
-                          title: 'Try Again',
+                          title: 'com.example.quizzledemo',
                         )),
                         const SizedBox(
                           width: 5,
