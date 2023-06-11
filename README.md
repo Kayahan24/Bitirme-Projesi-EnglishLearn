@@ -1,7 +1,7 @@
 <h1 align="center">QuizWhiz</h1>
 
 <p align="center">  
-  Bu uygulama firebase kullanılarak yapılmıştır.Eposta yoluyla giriş yapılır.Uygulamaya giriş yaptığınızda kullanmaya başlayabilirsiniz. <a href="https://firebase.google.com/docs">FireBase</a>.
+  Bu uygulama firebase kullanılarak yapılmıştır.E-posta yoluyla giriş yapılır.Uygulamaya giriş yaptığınızda kullanmaya başlayabilirsiniz. <a href="https://firebase.google.com/docs">FireBase</a>.
 </p>
 
 
