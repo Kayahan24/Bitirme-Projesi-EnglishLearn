@@ -77,6 +77,11 @@ class HomeScreen extends GetView<MyDrawerController> {
                             shrinkWrap: true,
                             itemCount: _quizePprContoller.allPapers.length,
                             itemBuilder: (BuildContext context, int index) {
+                              if (id == '1') {
+                                if (_quizePprContoller.allPapers[index].id
+                                        .startsWith('p') ||
+                                    _quizePprContoller.allPapers[index].id
+                                        .startsWith('P')) {
                                   return QuizPaperCard(
                                     model: _quizePprContoller.allPapers[index],
                                   );

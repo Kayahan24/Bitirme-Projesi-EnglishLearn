@@ -52,7 +52,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Color(0xFF781EFF),
+          backgroundColor: Color(0xFF823FE6),
           centerTitle: true,
           title: const Text('Dictionary', style: kHeaderTS),
           bottom: PreferredSize(
@@ -106,7 +106,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
               return const Center(
                 child: Text(
                   'Type a word to get its meaning 🤔',
-                  style: TextStyle(fontSize: 18, color: Colors.white),
+                  style: TextStyle(fontSize: 18, color: Color(0xFF7424ed)),
                 ),
               );
             }
@@ -126,7 +126,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                 itemBuilder: (ctx, i) => ListBody(
                       children: [
                         Card(
-                          color: Colors.grey[500],
+                          color: Colors.white,
                           elevation: 8,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
@@ -143,7 +143,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                                           ['image_url'] ==
                                       null
                                   ? const CircleAvatar(
-                                      backgroundColor: Colors.black,
+                                      backgroundColor: Color(0xFF823FE6),
                                       child: Icon(Icons.chevron_right),
                                       maxRadius: 25,
                                     )
@@ -164,8 +164,9 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                                   fontWeight: isExpanded
                                       ? FontWeight.w400
                                       : FontWeight.w300,
-                                  color:
-                                      isExpanded ? Colors.white : Colors.black,
+                                  color: isExpanded
+                                      ? Color(0xFF823FE6)
+                                      : Colors.black,
                                 ),
                               ),
                               children: [

@@ -1,4 +1,4 @@
-import 'package:bitirme_english/configs/themes/sub_theme_data_mixin.dart';
+import 'package:quizzle/configs/themes/sub_theme_data_mixin.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
