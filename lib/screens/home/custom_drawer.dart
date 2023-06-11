@@ -81,17 +81,12 @@ class CustomDrawer extends GetView<MyDrawerController> {
                   ),
                   const Spacer(flex: 1),
                   _DrawerButton(
-                      onPressed: () => controller.github(),
-                      icon: AppIcons.github,
-                      label: 'My GitHub'),
-                  _DrawerButton(
-                    icon: Icons.code,
-                    label: ' Download Source Code',
-                    onPressed: () => controller.downloadSourceCode(),
-                  ),
+                      onPressed: () => controller.goToProfile(),
+                      icon: Icons.person,
+                      label: 'Profile'),
                   _DrawerButton(
                       icon: AppIcons.contact,
-                      label: 'Contact Me',
+                      label: 'Contact Us',
                       onPressed: () {}),
                   Padding(
                     padding: const EdgeInsets.only(left: 25),
@@ -99,7 +94,9 @@ class CustomDrawer extends GetView<MyDrawerController> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         _DrawerButton(
-                            icon: AppIcons.web, label: 'Web', onPressed: () {}),
+                            icon: AppIcons.github,
+                            label: 'Github',
+                            onPressed: () => controller.github()),
                         _DrawerButton(
                             icon: AppIcons.email,
                             label: 'Email',

@@ -1,4 +1,4 @@
-package com.meka.quizwhiz
+package com.example.quizzledemo
 
 import io.flutter.embedding.android.FlutterActivity
 

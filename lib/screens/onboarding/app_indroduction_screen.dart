@@ -24,12 +24,12 @@ class AppIntroductionScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Icon(
-                Icons.warning_amber_sharp,
-                size: 65,
+                Icons.book_outlined,
+                size: 80,
                 color: kOnSurfaceTextColor,
               ),
               const Text(
-                'This is not a production app. This quiz app is made for beginner flutter developers to understand the firebase integrations, state management, and the app flow. There are free available all source codes, design files also.',
+                'Welcome to our English language proficiency app! We provide comprehensive resources and exercises to help you prepare for English language exams.Our user-friendly interface and personalized study plans make learning enjoyable and effective.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontSize: 18,

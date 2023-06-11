@@ -102,24 +102,24 @@ class RecentQuizCard extends StatelessWidget {
               ],
             ),
           ),
-          Material(
-            color: Theme.of(context).primaryColor,
-            child: InkWell(
-              onTap: () {},
-              child: Ink(
-                width: double.maxFinite,
-                padding: UIParameters.screenPadding / 2,
-                child: const Center(
-                  child: Text(
-                    'Try Again',
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: kOnSurfaceTextColor),
-                  ),
-                ),
-              ),
-            ),
-          )
+          // Material(
+          //   color: Theme.of(context).primaryColor,
+          //   child: InkWell(
+          //     onTap: () {},
+          //     child: Ink(
+          //       width: double.maxFinite,
+          //       padding: UIParameters.screenPadding / 2,
+          //       child: const Center(
+          //         child: Text(
+          //           'Try Again',
+          //           style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               color: kOnSurfaceTextColor),
+          //         ),
+          //       ),
+          //     ),
+          //   ),
+          // )
         ],
       ),
     );
