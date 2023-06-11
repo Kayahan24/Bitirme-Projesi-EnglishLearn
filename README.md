@@ -15,7 +15,7 @@
 
 <h2>Ekran Görüntüleri</h2>
 
-<h3>Kayıt Ol Sayfası</h3>
+<h3>Giriş Sayfası</h3>
 
 <p align="center">
 <img src="/screenshots/signup_page.png" style="display: block;
@@ -34,7 +34,7 @@
   width: 30%"/>
 </p>
 
-<h3>Telefon Doğrulama Sayfası</h3>
+<h3>Menü</h3>
 
 <p align="center">
 <img src="/screenshots/phonenumber_page.png" style="display: block;
@@ -43,7 +43,16 @@
   width: 30%"/>
 </p>
 
-<h3>Chat Sayfası</h3>
+<h3>Test Sayfası</h3>
+
+<p align="center">
+<img src="/screenshots/chat_page.png" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%"/>
+</p>
+
+<h3>Sözlük Sayfası</h3>
 
 <p align="center">
 <img src="/screenshots/chat_page.png" style="display: block;
