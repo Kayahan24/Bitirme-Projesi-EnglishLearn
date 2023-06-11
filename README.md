@@ -11,7 +11,7 @@
 
 <h3>Giriş Sayfası</h3>
 
-<p align="center">
+<p align="left">
 <img src="/Screenshots/Main Page.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
