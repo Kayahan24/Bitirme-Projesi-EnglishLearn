@@ -22,7 +22,7 @@
 <h3>Hata Durumu</h3>
 
 <p align="center">
-<img src="/Screenshots/Error Mesage.png" style="display: block;
+<img src="/Screenshots/Error Mesage.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -31,7 +31,7 @@
 <h3>Menü</h3>
 
 <p align="center">
-<img src="/Screenshots/Home Screen.png" style="display: block;
+<img src="/Screenshots/Home Screen.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -40,7 +40,7 @@
 <h3>Test Sayfası</h3>
 
 <p align="center">
-<img src="/Screenshots/Question Page.png" style="display: block;
+<img src="/Screenshots/Question Page.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -49,7 +49,7 @@
 <h3>Sözlük Sayfası</h3>
 
 <p align="center">
-<img src="/Screenshots/Dictionary Page.png" style="display: block;
+<img src="/Screenshots/Dictionary Page.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
