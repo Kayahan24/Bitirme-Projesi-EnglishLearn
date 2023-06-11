@@ -11,8 +11,15 @@
 
 <h3>Giriş Sayfası</h3>
 
-<p align="center">
-<img src="/screenshots/signup_page.png" style="display: block;
+<p align="left">
+<img src="/Screenshots/Main Page.jpg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%"/>
+</p>
+
+<p align="right">
+<img src="/Screenshots/Main Page 1.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
