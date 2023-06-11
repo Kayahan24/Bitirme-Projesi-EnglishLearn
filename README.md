@@ -11,15 +11,8 @@
 
 <h3>Giriş Sayfası</h3>
 
-<p align="left">
+<p align="center">
 <img src="/Screenshots/Main Page.jpg" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%"/>
-</p>
-
-<p align="right">
-<img src="/Screenshots/Main Page 1.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -29,7 +22,7 @@
 <h3>Hata Durumu</h3>
 
 <p align="center">
-<img src="/screenshots/error_page.png" style="display: block;
+<img src="/Screenshots/Error Mesage.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -38,7 +31,7 @@
 <h3>Menü</h3>
 
 <p align="center">
-<img src="/screenshots/phonenumber_page.png" style="display: block;
+<img src="/Screenshots/Home Screen.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -47,7 +40,7 @@
 <h3>Test Sayfası</h3>
 
 <p align="center">
-<img src="/screenshots/chat_page.png" style="display: block;
+<img src="/Screenshots/Question Page.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
@@ -56,7 +49,7 @@
 <h3>Sözlük Sayfası</h3>
 
 <p align="center">
-<img src="/screenshots/chat_page.png" style="display: block;
+<img src="/Screenshots/Dictionary Page.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%"/>
