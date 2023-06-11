@@ -18,6 +18,13 @@
   width: 30%"/>
 </p>
 
+<p align="right">
+<img src="/Screenshots/Main Page 1.jpg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%"/>
+</p>
+
 
 <h3>Hata Durumu</h3>
 
