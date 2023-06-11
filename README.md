@@ -4,12 +4,6 @@
   Bu uygulama firebase kullanılarak yapılmıştır.Eposta yoluyla giriş yapılır.Uygulamaya giriş yaptığınızda kullanmaya başlayabilirsiniz. <a href="https://firebase.google.com/docs">FireBase</a>.
 </p>
 
-<p align="center">
-<img src="/screenshots/login_page.png" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%"/>
-</p>
 
 </br>
 
