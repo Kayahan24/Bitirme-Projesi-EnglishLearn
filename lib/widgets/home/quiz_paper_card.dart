@@ -56,7 +56,7 @@ class QuizPaperCard extends GetView<QuizPaperController> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          model.title,
+                          model.head,
                           style: cardTitleTs(context),
                         ),
                         Padding(

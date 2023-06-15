@@ -1,239 +1,240 @@
 {
-    "id": "vppr006",
-    "title": "Vocabulary_6",
+    "id": "ppr007",
+    "title": "Grammar_7",
+    "head": "Grammar Test 7",
     "image_url": "",
-    "Description": "Assess your English vocabulary skills. Includes multiple-choice questions.Good luck!",
+    "Description": "Assess your English grammar skills. Includes multiple-choice questions.Good luck!",
     "time_seconds": 900,
     "questions": [
         {
-            "id": "vppr006q001",
-            "question": "What measures have been ________ to control the crowd at Saturday's football match?",
+            "id": "ppr007q001",
+            "question": "A:I have eaten far too much.  B:Oh ______ all that exercise",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "imagined"
+                    "Answer": "it has to be"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "made"
+                    "Answer": "it must be"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "given"
+                    "Answer": "it ought to be"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "taken"
+                    "Answer": "it should be"
                 }
             ],
-            "correct_answer": "D"
+            "correct_answer": "B"
         },
         {
-            "id": "vppr006q002",
-            "question": "He left in such a hurry that I ________ had time to thank him.",
+            "id": "ppr007q002",
+            "question": "A:There was a lot of noise n this building last night.  B:Well ______.I was out at a party all night.",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "scarcely"
+                    "Answer": "it might have been me"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "almost"
+                    "Answer": "it mustn't have been me"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "even"
+                    "Answer": "it couldn't have been me"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "nearly"
+                    "Answer": "it shouldn't have been me"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr007q003",
+            "question": "A:I'm surprised your husband didn't stay longer.  B:Well, ______ had the weather been better.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "he should have done"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "he might've done"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "he has done"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "he must have done"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr007q004",
+            "question": "A:Must I always pay my rent by cheque?  B:No, ______.Pay it however you want to.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "you needn't"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "you mustn't"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "you shouldn't"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "you oughtn't"
                 }
             ],
             "correct_answer": "A"
         },
         {
-            "id": "vppr006q003",
-            "question": "He gave me some very ________ advice on buying a house.",
+            "id": "ppr007q005",
+            "question": "A:I hate all this polite chat at cocktail parties.  B: Oh, you ______ polite in my house.Say whatever you want! ",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "precious"
+                    "Answer": "mustn't be"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "valuable"
+                    "Answer": "shouldn't be"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "dear"
+                    "Answer": "needn't be"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "prized"
+                    "Answer": "oughtn't to be"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr007q006",
+            "question": "I'm sorry but I can't _______ anybody at the moment because the bedrooms are being redecorated.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "put up"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "put up with"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "put off"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "put with"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr007q007",
+            "question": "I must say I wouldn’t buy it, but don’t be ________ by me.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "put up"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "put up with"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "put off"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "put with"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr007q008",
+            "question": "If he hadn’t been so drunk, he would have ________ his ideas more convincingly.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "put across"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "put up with"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "put through"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "put with"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr007q009",
+            "question": "The noise in the classroom is getting unbearable. I simply won’t ________ it!",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "put across"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "put up with"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "put through"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "put with"
                 }
             ],
             "correct_answer": "B"
         },
         {
-            "id": "vppr006q004",
-            "question": "To get my travelers' cheques I had to ________ a special cheque to the Bank for the total amount",
+            "id": "ppr007q010",
+            "question": " I’ll never go to that grocer’s again. He seems to ________ his prices every day",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "make for"
+                    "Answer": "put up"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "make off"
+                    "Answer": "put up with"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "make out"
+                    "Answer": "put off"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "makeover"
+                    "Answer": "put with"
                 }
             ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "vppr006q005",
-            "question": " If we can ________ our present difficulties, then everything should be all right.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "get off"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "come across"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "come over"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "get over"
-                }
-            ],
-            "correct_answer": "D"
-        },
-        {
-            "id": "vppr006q006",
-            "question": "I'm ________ to get the tickets for the show today, as there are hardly any left.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "worried"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "curious"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "anxious"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "afraid"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "vppr006q007",
-            "question": "His landlady gave him a week's ________ to leave the flat.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "threat"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "notice"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "advice"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "caution"
-                }
-            ],
-            "correct_answer": "B"
-        },
-        {
-            "id": "vppr006q008",
-            "question": " A completely new situation is likely to ________ when the school leaving age is raised to 16.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "affect"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "rise"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "arise"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "raise"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "vppr006q009",
-            "question": "We forgave his bad temper because we knew that his son's illness had put him under great ________.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "emotion"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "excitement"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "crisis"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "stress"
-                }
-            ],
-            "correct_answer": "D"
-        },
-        {
-            "id": "vppr006q010",
-            "question": "A competitor may submit any number of entries ________ each one is accompanied by a registration fee.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "guaranteeing"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "insuring"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "allowing"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "providing"
-                }
-            ],
-            "correct_answer": "D"
+            "correct_answer": "A"
         }
     ]
 }

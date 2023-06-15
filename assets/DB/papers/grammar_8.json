@@ -1,239 +1,240 @@
 {
-    "id": "vppr007",
-    "title": "Vocabulary_7",
+    "id": "ppr008",
+    "title": "Grammar_8",
+    "head": "Grammar Test 8",
     "image_url": "",
-    "Description": "Assess your English vocabulary skills. Includes multiple-choice questions.Good luck!",
+    "Description": "Assess your English grammar skills. Includes multiple-choice questions.Good luck!",
     "time_seconds": 900,
     "questions": [
         {
-            "id": "vppr007q001",
-            "question": "Many poets have ________ the beauties of the countryside.",
+            "id": "ppr008q001",
+            "question": " I'm not  ______ that subject.",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "applauded"
+                    "Answer": "interesting with"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "enthused"
+                    "Answer": "interested with"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "extolled"
+                    "Answer": "interested in"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "enamored"
+                    "Answer": "interested by"
                 }
             ],
             "correct_answer": "C"
         },
         {
-            "id": "vppr007q002",
-            "question": "When the student graduated, he got his ________.",
+            "id": "ppr008q002",
+            "question": "Alice is unhappy today.She can't study ______.",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "paper"
+                    "Answer": "something"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "degree"
+                    "Answer": "anything"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "license"
+                    "Answer": "nothing"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "pension"
+                    "Answer": "everything"
                 }
             ],
             "correct_answer": "B"
         },
         {
-            "id": "vppr007q003",
-            "question": "She didn't ________ doing the washing up, as she hadn't wanted to go out anyway.",
+            "id": "ppr008q003",
+            "question": "The student ______ something to write with.",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "object"
+                    "Answer": "is need"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "mind"
+                    "Answer": "needs"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "care"
+                    "Answer": "is needing"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "matter"
+                    "Answer": "is needed"
                 }
             ],
             "correct_answer": "B"
         },
         {
-            "id": "vppr007q004",
-            "question": "The tremor in his voice ________ his nervousness.",
+            "id": "ppr008q004",
+            "question": "Who is going to answer ______ question?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "affirmed"
+                    "Answer": "that"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "pronounced"
+                    "Answer": "to that"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "disguised"
+                    "Answer": "for that"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "revealed"
-                }
-            ],
-            "correct_answer": "D"
-        },
-        {
-            "id": "vppr007q005",
-            "question": " Although I tried to concentrate on the lectures, I was ________ by the noise from the next room.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "dissuaded"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "averted"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "repressed"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "distracted"
-                }
-            ],
-            "correct_answer": "D"
-        },
-        {
-            "id": "vppr007q006",
-            "question": "I ________ what her name is; I'm sure I know her face.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "remember"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "wonder"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "guess"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "suspect"
-                }
-            ],
-            "correct_answer": "B"
-        },
-        {
-            "id": "vppr007q007",
-            "question": " ‘I ________ that one', said the tourist, pointing for the benefit of the uncomprehending shopkeeper.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "want"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "wish"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "take"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "desire"
+                    "Answer": "_"
                 }
             ],
             "correct_answer": "A"
         },
         {
-            "id": "vppr007q008",
-            "question": "I do not ________ to be clever but I am not stupid.",
+            "id": "ppr008q005",
+            "question": "Can you tell me where ______ ?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "permit"
+                    "Answer": "does John live"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "classify"
+                    "Answer": "John is alive"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "confess"
+                    "Answer": "John lives"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "claim"
+                    "Answer": "is John living"
                 }
             ],
-            "correct_answer": "D"
+            "correct_answer": "C"
         },
         {
-            "id": "vppr007q009",
-            "question": "After the Cabinet reshuffle, the Minister wasn't very happy at his new ________.",
+            "id": "ppr008q006",
+            "question": "_______ you like some tea?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "job"
+                    "Answer": "Will"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "post"
+                    "Answer": "Would"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "work"
+                    "Answer": "Are"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "shift"
+                    "Answer": "Can"
                 }
             ],
             "correct_answer": "B"
         },
         {
-            "id": "vppr007q010",
-            "question": " Children under the age of 16 are not ________ to enter for the competition",
+            "id": "ppr008q007",
+            "question": "Do you mind ______ the window?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "enabled"
+                    "Answer": "open"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "empowered"
+                    "Answer": "to open"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "capable"
+                    "Answer": "opening"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "eligible"
+                    "Answer": "you open"
                 }
             ],
-            "correct_answer": "D"
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr008q008",
+            "question": "My brother doesn't like coffee. _____ I do.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "neither"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "but"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "nor"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "so"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr008q009",
+            "question": "She felt ill after ______ the food.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "being eaten"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "to eat"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "eating"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "eaten"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr008q010",
+            "question": "Jane is the same age _____ Mary.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "like"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "with"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "as"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "so"
+                }
+            ],
+            "correct_answer": "C"
         }
     ]
 }

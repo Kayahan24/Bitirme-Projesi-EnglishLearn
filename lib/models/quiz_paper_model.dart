@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 class QuizPaperModel {
   final String id;
   final String title;
+  final String head;
   String? imageUrl;
   Rxn<String?>? url;
   final String description;
@@ -16,6 +17,7 @@ class QuizPaperModel {
   QuizPaperModel({
     required this.id,
     required this.title,
+    required this.head,
     this.imageUrl,
     required this.description,
     required this.timeSeconds,
@@ -25,24 +27,30 @@ class QuizPaperModel {
 
   String timeInMinits() => "${(timeSeconds / 60).ceil()} mins";
 
-  factory QuizPaperModel.fromString(String jsonString) => QuizPaperModel.fromJson(json.decode(jsonString));
+  factory QuizPaperModel.fromString(String jsonString) =>
+      QuizPaperModel.fromJson(json.decode(jsonString));
 
   QuizPaperModel.fromJson(Map<String, dynamic> json)
       : id = json['id'],
         title = json['title'] as String,
+        head = json['head'] as String,
         imageUrl = json['image_url'] as String?,
         description = json['Description'] as String,
         timeSeconds = json['time_seconds'] as int,
         questionsCount = 0,
 
         /// will be update in PapersDataUploader
-        questions = json['questions'] == null ? [] : (json['questions'] as List)
-            .map((dynamic e) => Question.fromJson(e as Map<String, dynamic>))
-            .toList();
+        questions = json['questions'] == null
+            ? []
+            : (json['questions'] as List)
+                .map(
+                    (dynamic e) => Question.fromJson(e as Map<String, dynamic>))
+                .toList();
 
   QuizPaperModel.fromSnapshot(DocumentSnapshot<Map<String, dynamic>> snapshot)
       : id = snapshot.id,
         title = snapshot['title'],
+        head = snapshot['head'],
         imageUrl = snapshot['image_url'],
         description = snapshot['Description'],
         timeSeconds = snapshot['time_seconds'],
@@ -52,6 +60,7 @@ class QuizPaperModel {
   Map<String, dynamic> toJson() => {
         'id': id,
         'title': title,
+        'head': head,
         'image_url': imageUrl,
         'Description': description,
         'time_seconds': timeSeconds,
@@ -109,8 +118,8 @@ class Answer {
         answer = json['Answer'] as String?;
 
   Answer.fromSnapshot(QueryDocumentSnapshot<Map<String, dynamic>> snapshot)
-    : identifier = snapshot['identifier'] as String?,
-      answer = snapshot['answer'] as String?; 
+      : identifier = snapshot['identifier'] as String?,
+        answer = snapshot['answer'] as String?;
 
   Map<String, dynamic> toJson() => {'identifier': identifier, 'Answer': answer};
 }
